@@ -11,18 +11,62 @@
 
   <body>
     <!-- Navbar content -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+
       <a class="navbar-brand logo" href="#">
         <img src="images/TMCminGold-01.png" width="100" height="50" alt="TMC Logo">
       </a>
 
-      <div class="">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav navList">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Book a Party</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Design
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Pick Out a Board</a>
+              <a class="dropdown-item" href="#">Chat With Our Designers</a>
+              <a class="dropdown-item" href="#">Submit Your Design</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTwo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownTwo">
+              <a class="dropdown-item" href="#">Who We Are</a>
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThree" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sign In/Register
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownThree">
+              <a class="dropdown-item" href="#">Sign In</a>
+              <a class="dropdown-item" href="#">Register</a>
+            </div>
+          </li>
+
         </ul>
       </div>
     </nav>
+
+  <!-- Additional Scripting -->
+  
+  <!-- Bootstrap Startup Required Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </body>
