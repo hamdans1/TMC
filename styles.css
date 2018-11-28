@@ -3,5 +3,10 @@ font-family: 'Clicker Script', cursive;
 */
 
 * {
+  font-family: 'Quicksand', sans-serif;
+}
 
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
 }
