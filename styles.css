@@ -8,22 +8,25 @@ color: (goldfoil) #C5B358;
 
 }
 
+nav {
+  border-bottom: 3px solid #C5B358;
+}
+
 .nav-item {
   margin-left: 10px;
   margin-right: 10px;
-  font-family: 'Quicksand';
+  font-family: 'Nunito';
 }
 
 .navbar-text {
   font-family: 'Clicker Script';
   font-size: 25px;
   margin-left: 25px;
-  color: #C5B358;
 }
 
 .carousel {
-  margin: 25px;
-  border: 2px solid #C5B358;
+  margin: 100px 35px 35px 35px;
+  border: 3px solid #C5B358;
   border-radius: 15px;
 }
 
