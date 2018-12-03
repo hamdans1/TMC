@@ -42,3 +42,30 @@ nav {
   font-family: 'Quicksand';
   font-size: 18px;
 }
+
+.insta-news {
+  display: inline-flex;
+}
+
+.news-header {
+  font-family: 'Quicksand';
+}
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-headline {
+  font-family: 'Quicksand';
+  border-bottom: 2px solid #C5B358;
+}
+
+.news-headline p {
+  font-family: 'Nunito';
+}
+
+.insta-header {
+  font-family: 'Quicksand';
+  border-bottom: 2px solid #C5B358;
+  color: black;
+  margin-bottom: 15px;
+}
