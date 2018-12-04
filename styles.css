@@ -52,6 +52,7 @@ nav {
 
 .insta-news {
   display: inline-flex;
+  margin-bottom: 100px;
 }
 
 .news-header {
@@ -75,4 +76,38 @@ nav {
   border-bottom: 2px solid #C5B358;
   color: black;
   margin-bottom: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  border-top: 2px dashed white;
+  background-color: grey;
+  color: #C5B358;
+  font-size: 12px;
+  font-family: 'Nunito';
+}
+
+.foot-links-box {
+  margin-top: 35px;
+  display: inline-flex;
+}
+
+.foot-links {
+  color: #C5B358;
+  font-size: 12px;
+  font-family: 'Nunito';
+}
+
+.foot-links li {
+  list-style: none;
+  padding: 5px 0px 5px 0px;
+}
+
+.foot-link{
+  color: #C5B358;
+}
+
+.email-capture {
+  margin-top: 35px;
+  font-family: 'Nunito';
 }
