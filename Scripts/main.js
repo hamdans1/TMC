@@ -1,11 +1,13 @@
 $(document).ready(function(){
+  //insert logo click and hide body, reveal after Clicker
 
-  $('.dropdown-toggle').on({
+
+  $('.dropdown').on({
     mouseenter: function(){
-      $(this).siblings().slideDown('slow');
+      $(this).children().slideDown('slow');
     },
     mouseleave: function(){
-      $(this).siblings().slideUp('fast');
+      $('.dropdown-menu').slideUp('fast');
     }
   });
 
