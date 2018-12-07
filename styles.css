@@ -101,6 +101,10 @@ footer {
   color: #C5B358;
   font-size: 12px;
   font-family: 'Nunito';
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .foot-links-box {
