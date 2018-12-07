@@ -4,6 +4,7 @@ font-family: 'Clicker Script', cursive;
 font-family: 'Nunito', sans-serif;
 color: (goldfoil) #C5B358;
 */
+
 *{
 
 }
@@ -15,6 +16,15 @@ body {
 }
 */
 
+/* Splash Logo Styling */
+.splash-logo {
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* NavBar Styling */
 nav {
   border-bottom: 3px solid #C5B358;
 }
@@ -30,6 +40,8 @@ nav {
   font-size: 25px;
   margin-left: 25px;
 }
+
+/* Carousel Styling */
 
 .carousel {
   margin: 100px 35px 35px 35px;
@@ -49,6 +61,8 @@ nav {
   font-family: 'Quicksand';
   font-size: 18px;
 }
+
+/* Instagram and News */
 
 .insta-news {
   display: inline-flex;
@@ -75,8 +89,10 @@ nav {
   font-family: 'Quicksand';
   border-bottom: 2px solid #C5B358;
   color: black;
-  margin-bottom: 30px;
+  margin-top: 32px;
 }
+
+/* Footer Styling */
 
 footer {
   margin-top: 100px;
