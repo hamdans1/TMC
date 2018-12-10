@@ -1,12 +1,13 @@
 $(document).ready(function(){
   //insert logo click and hide body, reveal after Clicker
 
-  $('.content').hide();
+  /* $('.content').hide();
 
   $('.splash-logo').click(function(){
     $('.splash-logo').hide(500);
     $('.content').show(1000);
   });
+  */
 
   $('.dropdown').on({
     mouseenter: function(){
@@ -16,6 +17,10 @@ $(document).ready(function(){
       $('.dropdown-menu').slideUp('fast');
     }
   });
+
+  $('.test-box').click(function(){
+    $('.test-box').addClass('.test-switch');
+  })
 
 
 })
