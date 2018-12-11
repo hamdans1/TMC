@@ -80,14 +80,18 @@ body {
   border-left: 4px dashed #C5B358;
   border-bottom: 4px dashed #C5B358;
   width: 700px;
-  height: 500px;
+  height: 900px;
+}
+
+.line-start-text{
+  
 }
 
 .line-two {
   border-right: 4px dashed #C5B358;
   margin-left: 200px;
   width: 700px;
-  height: 100px;
+  height: 200px;
 }
 
 /* Video Box */
