@@ -28,6 +28,7 @@ body {
     ),
     url("../Images/lights.jpg");
   height: 830px;
+  border-bottom: 8px solid white;
 }
 
 .homepage-menu-container {
@@ -74,13 +75,44 @@ body {
   color: #C5B358;
 }
 
+/* Video Box */
+
+.video-container {
+  margin-top: 200px;
+  display: inline-flex;
+  margin-bottom: 300px;
+}
+
+.video-text {
+  width: 95%;
+  border: 3px dotted black;
+  text-align: center;
+  padding-top: 150px;
+  font-family: 'Nunito';
+  font-size: 25px;
+  height: 700px;
+}
+
+.video-text li {
+  padding: 15px 5px 15px 5px;
+}
+
+/*
+video {
+    max-width:  50% !important;
+    max-height: 50% !important;
+}
+*/
+
+
 /* Personalize Box */
 .personalize-box {
+  border-top: 8px solid #C5B358;
   color: #C5B358;
 }
 
 .frontpage-headline {
-  font-family: 'Clicker Script';
+  font-family: 'Nunito';
   font-size: 75px;
 }
 
