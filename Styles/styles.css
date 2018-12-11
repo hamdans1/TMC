@@ -28,7 +28,7 @@ body {
     ),
     url("../Images/lights.jpg");
   height: 830px;
-  border-bottom: 8px solid white;
+  border-bottom: 8px solid #C5B358;
 }
 
 .homepage-menu-container {
@@ -75,26 +75,35 @@ body {
   color: #C5B358;
 }
 
+.line-start {
+  margin-left: 200px;
+  border-left: 4px dashed #C5B358;
+  border-bottom: 4px dashed #C5B358;
+  width: 700px;
+  height: 500px;
+}
+
+.line-two {
+  border-right: 4px dashed #C5B358;
+  margin-left: 200px;
+  width: 700px;
+  height: 100px;
+}
+
 /* Video Box */
 
 .video-container {
-  margin-top: 200px;
   display: inline-flex;
   margin-bottom: 300px;
 }
 
 .video-text {
   width: 95%;
-  border: 3px dotted black;
-  text-align: center;
-  padding-top: 150px;
-  font-family: 'Nunito';
-  font-size: 25px;
-  height: 700px;
+  padding-top: 30px;
 }
 
-.video-text li {
-  padding: 15px 5px 15px 5px;
+.videobox {
+  border: 8px solid #C5B358;
 }
 
 /*
@@ -107,7 +116,7 @@ video {
 
 /* Personalize Box */
 .personalize-box {
-  border-top: 8px solid #C5B358;
+  border-top: 8px solid black;
   color: #C5B358;
 }
 
