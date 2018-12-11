@@ -16,16 +16,76 @@ body {
 }
 */
 
-/* Splash Logo Styling */
-.splash-logo {
+/* HomePage Styling */
+
+
+/* Main Menu */
+
+.homepage-start-container {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+    ),
+    url("../Images/lights.jpg");
+  height: 830px;
+}
+
+.homepage-menu-container {
+  background-color: white;
   margin-top: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  height: 250px;
+  border-top: 8px double #C5B358;
+  border-left: 8px double #C5B358;
+  border-bottom: 8px double #C5B358;
+  background-color: white;
+}
+
+.home-logo-nav-container {
+  margin: 0 auto 0 auto;
+}
+
+.homepage-nav {
+  display: inline-flex;
+  align-content: center;
+  margin-left: 75px;
+}
+
+.homepage-nav-item {
+  color: white;
+  font-family: 'Clicker Script';
+  width: 150px;
+  height: 75px;
+  font-size: 25px;
+  background: linear-gradient(
+    rgba(75,75,75,0.35),
+    rgba(75,75,75,0.35)
+    ),
+    url("../Images/WOODGRAIN.jpg");
+
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 4%;
+  border: 2px solid #C5B358;
+}
+
+.homepage-nav-item:hover {
+  text-decoration: none;
+  color: #C5B358;
+}
+
+/* Personalize Box */
+.personalize-box {
+  color: #C5B358;
+}
+
+.frontpage-headline {
+  font-family: 'Clicker Script';
+  font-size: 75px;
 }
 
 /* NavBar Styling */
-nav {
+.navbar {
   border-bottom: 3px solid #C5B358;
 }
 
