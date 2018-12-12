@@ -163,6 +163,14 @@ video {
   margin-top: 100px;
 }
 
+.personalize-description img {
+  margin-left: 40px;
+}
+
+.p-table p {
+  margin-bottom: 50px;
+}
+
 /* Paint Box */
 .paint-container {
   border-top: 8px solid #C5B358;
