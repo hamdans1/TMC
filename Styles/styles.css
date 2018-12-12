@@ -78,17 +78,29 @@ body {
 .line-start {
   margin-left: 200px;
   border-left: 4px dashed #C5B358;
-  border-bottom: 4px dashed #C5B358;
   width: 700px;
-  height: 900px;
+  height: 700px;
 }
 
-.line-start-text{
-  
+.description-list {
+  color: black;
+  font-size: 36px;
+  font-family: 'Nunito';
 }
+
+.description-list li {
+  margin: 45px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  border: 4px solid #C5B258;
+  list-style: none;
+}
+
 
 .line-two {
   border-right: 4px dashed #C5B358;
+  border-top: 4px dashed #C5B358;
   margin-left: 200px;
   width: 700px;
   height: 200px;
@@ -98,12 +110,25 @@ body {
 
 .video-container {
   display: inline-flex;
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 
 .video-text {
   width: 95%;
   padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 100px;
+  font-size: 30px;
+  color: black;
+  font-family: 'Nunito';
+}
+
+.video-text h1 {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: #C5B358;
+  padding: 10px;
 }
 
 .videobox {
@@ -119,14 +144,47 @@ video {
 
 
 /* Personalize Box */
-.personalize-box {
+.personalize-container {
   border-top: 8px solid black;
   color: #C5B358;
+  margin-bottom: 200px;
 }
 
-.frontpage-headline {
+.personalize-headline {
   font-family: 'Nunito';
   font-size: 75px;
+}
+
+.personalize-description {
+  display: inline-flex;
+  color: black;
+  font-family: 'Nunito';
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+/* Paint Box */
+.paint-container {
+  border-top: 8px solid #C5B358;
+  background-color: black;
+  color: white;
+}
+
+.paint-headline {
+  font-size: 75px;
+  font-family: 'Nunito';
+}
+
+/* Prosecco Box */
+.prosecco-container {
+  border-top: 8px solid white;
+  background-color: #C5B358;
+  color: black;
+}
+
+.prosecco-headline {
+  font-size: 75px;
+  font-family: 'Nunito';
 }
 
 /* NavBar Styling */
