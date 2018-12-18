@@ -183,6 +183,25 @@ video {
   font-family: 'Nunito';
 }
 
+.paint-description {
+  display: inline-flex;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.paint-description img {
+  margin-left: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.paint {
+  float: right;
+  font-family: 'Nunito';
+  font-size: 20px;
+  margin-left: 40px;
+}
+
 /* Prosecco Box */
 .prosecco-container {
   border-top: 8px solid white;
@@ -193,6 +212,23 @@ video {
 .prosecco-headline {
   font-size: 75px;
   font-family: 'Nunito';
+}
+
+.prosecco-description {
+  display: inline-flex;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.prosecco-description img {
+  float: right;
+  border: 2px solid black;
+}
+
+.prosecco {
+  font-family: 'Nunito';
+  font-size: 20px;
+  margin-right: 100px;
 }
 
 /* NavBar Styling */
