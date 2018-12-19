@@ -299,6 +299,12 @@ video {
   margin-top: 32px;
 }
 
+/* FAQ */
+
+.faq-container {
+  margin-top: 150px;
+}
+
 /* Footer Styling */
 
 footer {
