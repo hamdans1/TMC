@@ -52,22 +52,12 @@ body {
 }
 
 .homepage-nav-item {
-  color: white;
-  font-family: 'Clicker Script';
-  width: 150px;
-  height: 75px;
-  font-size: 25px;
-  background: linear-gradient(
-    rgba(75,75,75,0.35),
-    rgba(75,75,75,0.35)
-    ),
-    url("../Images/WOODGRAIN.jpg");
-
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   padding-top: 4%;
   border: 2px solid #C5B358;
+  font-family: 'Nunito';
 }
 
 .homepage-nav-item:hover {
