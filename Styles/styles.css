@@ -143,9 +143,18 @@ video {
   font-family: 'Nunito';
 }
 
+.dropdown-item {
+  border-radius: 15px;
+}
+
 .dropdown-item:hover {
-  color: white;
+  color: #C5B358;
   background-color: black;
+}
+
+.dropdown-menu {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .sign-in-menu {
@@ -190,8 +199,8 @@ video {
 .news-header {
   font-family: 'Quicksand';
   border-bottom: 2px solid #C5B358;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 .news-item {
   margin-bottom: 50px;
@@ -210,7 +219,7 @@ video {
   font-family: 'Quicksand';
   border-bottom: 2px solid #C5B358;
   color: black;
-  margin-top: 32px;
+  margin-top: 25px;
 }
 
 /* FAQ */
