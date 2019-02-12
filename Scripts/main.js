@@ -1,17 +1,12 @@
 $(document).ready(function(){
 
-  $('.dropdown').on({
-    mouseenter: function(){
+  $('.nav-dropdown').on('mouseenter', function(){
       $(this).children().slideDown('slow');
-    },
-    mouseleave: function(){
-      $('.dropdown-menu').slideUp('fast');
-    }
+    });
+
+  $('.nav-dropdown-menu').on('mouseleave', function() {
+    $(this).slideUp('slow');
   });
 
-  $('.test-box').click(function(){
-    $('.test-box').addClass('.test-switch');
-  })
 
-
-})
+});

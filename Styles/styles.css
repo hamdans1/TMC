@@ -132,95 +132,6 @@ video {
 }
 */
 
-
-/* Personalize Box */
-.personalize-container {
-  border-top: 8px solid black;
-  color: #C5B358;
-  margin-bottom: 200px;
-}
-
-.personalize-headline {
-  font-family: 'Nunito';
-  font-size: 75px;
-}
-
-.personalize-description {
-  display: inline-flex;
-  color: black;
-  font-family: 'Nunito';
-  font-size: 20px;
-  margin-top: 100px;
-}
-
-.personalize-description img {
-  margin-left: 40px;
-}
-
-.p-table p {
-  margin-bottom: 50px;
-}
-
-/* Paint Box */
-.paint-container {
-  border-top: 8px solid #C5B358;
-  background-color: black;
-  color: white;
-}
-
-.paint-headline {
-  font-size: 75px;
-  font-family: 'Nunito';
-}
-
-.paint-description {
-  display: inline-flex;
-  margin-top: 100px;
-  margin-bottom: 150px;
-}
-
-.paint-description img {
-  margin-left: 40px;
-  border: 2px solid white;
-  border-radius: 5px;
-}
-
-.paint {
-  float: right;
-  font-family: 'Nunito';
-  font-size: 20px;
-  margin-left: 40px;
-}
-
-/* Prosecco Box */
-.prosecco-container {
-  border-top: 8px solid white;
-  background-color: #C5B358;
-  color: black;
-}
-
-.prosecco-headline {
-  font-size: 75px;
-  font-family: 'Nunito';
-}
-
-.prosecco-description {
-  display: inline-flex;
-  margin-top: 100px;
-  margin-bottom: 150px;
-}
-
-.prosecco-description img {
-  float: right;
-  border: 2px solid black;
-}
-
-.prosecco {
-  font-family: 'Nunito';
-  font-size: 20px;
-  margin-right: 100px;
-}
-
 /* NavBar Styling */
 .navbar {
   border-bottom: 3px solid #C5B358;
@@ -232,10 +143,20 @@ video {
   font-family: 'Nunito';
 }
 
+.dropdown-item:hover {
+  color: white;
+  background-color: black;
+}
+
+.sign-in-menu {
+  width: 250px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .navbar-text {
   font-family: 'Clicker Script';
   font-size: 25px;
-  margin-left: 25px;
 }
 
 /* Carousel Styling */
@@ -268,6 +189,9 @@ video {
 
 .news-header {
   font-family: 'Quicksand';
+  border-bottom: 2px solid #C5B358;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .news-item {
   margin-bottom: 50px;
@@ -298,7 +222,6 @@ video {
 /* Footer Styling */
 
 footer {
-  margin-top: 100px;
   border-top: 2px dashed white;
   background-color: grey;
   color: #C5B358;
