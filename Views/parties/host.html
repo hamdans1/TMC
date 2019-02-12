@@ -65,7 +65,7 @@
                   <label for="passwordSignIn">Password</label>
                   <input type="password" class="form-control" id="passwordSignIn" placeholder="Password">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn tmc-btn">Submit</button>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item register-link" href="#">Sign Up/Register</a>
             </div>
@@ -80,24 +80,225 @@
     </nav>
 
     <!-- Host Request Form -->
+    <div class="container">
 
-    <div class="host-request-form">
-      <ol class="request-form-list">
-        <li>
-          Choose a date from the list:
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Open Dates
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <p class="dropdown-item">May 3, 2019</p>
-              <p class="dropdown-item">May 10, 2019</p>
-              <p class="dropdown-item">May 17, 2019</p>
+      <div class="host-request-form">
+        <h2 class="host-form-header">Host a Party</h2>
+          <form>
+              <h5 class="host-form-question">1. Choose a date from the list:</h5>
+              <div class="form-group">
+                <label for="inputDate">Select...</label>
+                <select id="inputDate" class="form-control">
+                  <option>May 3, 2019</option>
+                  <option>May 10, 2019</option>
+                  <option>May 17, 2019</option>
+                  <option>May 24, 2019</option>
+                  <option>May 31, 2019</option>
+                  <option>June 7, 2019</option>
+                  <option>June 14, 2019</option>
+                  <option>June 21, 2019</option>
+                  <option>June 28, 2019</option>
+                </select>
+              </div>
+
+              <h5 class="host-form-question">2. Enter the Host Address:</h5>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputFirstName">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputLastName">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                  </div>
+                </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input type="text" class="form-control" id="inputCity" placeholder="City">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">State</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>NY</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Zip</label>
+                      <input type="text" class="form-control" id="inputZip" placeholder="Zip Code">
+                    </div>
+                  </div>
+
+                  <h5 class="host-form-question">3. Enter Names and Emails for People You Plan to Invite</h5>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee1">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee1" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee1Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee1Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee2">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee2" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee2Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee2Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee3">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee3" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee3Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee3Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee4">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee4" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee4Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee4Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee5">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee5" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee5Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee5Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee6">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee6" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee6Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee6Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee7">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee7" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee7Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee7Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee8">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee8" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee8Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee8Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee9">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee9" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee9Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee9Email" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee10">Attendee Name</label>
+                      <input type="text" class="form-control" id="inputAttendee10" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputAttendee10Email">Attendee Email</label>
+                      <input type="email" class="form-control" id="inputAttendee10Email" placeholder="Email Address">
+                    </div>
+                  </div>
+
+                  <h5 class="host-form-question">4. Please Add Any Additional Information You'd Like Us to Know</h5>
+                  <div class="form-group">
+                    <label for="additionalInfoTextArea">Special requests or instructions</label>
+                    <textarea class="form-control" id="additionalInfoTextArea" rows="4" placeholder="Add Additional Information here..."></textarea>
+                  </div>
+
+                  <button type="submit" class="btn tmc-btn">Submit</button>
+              </form>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="page-footer">
+        <div class="container-fluid text-center text-md-left">
+
+          <div class="row row-footer">
+
+            <div class="col-md-4">
+              <a class="navbar-brand logo" href="#">
+                <img src="../../images/TMCminGold-01.png" width="100" height="50" alt="TMC Logo">
+              </a>
+              <p class="ppp-footer">Personalize. Paint. Prosecco. </p>
+              <p>The Monogram Crew has been designing boards and hosting parties since 2016. It is a labor of love and a true family business.</p>
             </div>
+
+            <div class="col-md-4 foot-links-box">
+              <h6>Navigate</h6>
+              <div>
+              <ul class="foot-links">
+                <li><a class="foot-link" href="../Views/index.html">Home</a></li>
+                <li><a class="foot-link" href="#">Book a Party</a></li>
+                <li><a class="foot-link" href="#">Shop</a></li>
+                <li><a class="foot-link" href="#">Contact Us</a></li>
+              </ul>
+              </div>
+              <div>
+              <ul class="foot-links">
+                <li><a class="foot-link" href="../Views/news.html">News</a></li>
+                <li><a class="foot-link" href="../Views/faq.html">FAQ</a></li>
+                <li><a class="foot-link" href="#">Sign In</a></li>
+                <li><a class="foot-link" href="#">Register</a></li>
+              </ul>
+              </div>
+            </div>
+
+            <div class="col-md-4 email-capture">
+              <h6>Sign Up for the Latest Information About New Products and Great Deals</h6>
+              <form class="input-group">
+                <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-sm btn-dark" type="button">Sign up</button>
+                </div>
+              </form>
+            </div>
+
           </div>
-        </li>
-      </ol>
-    </div>
+        </div>
+      </footer>
 
 
     <!-- Required Scripts -->

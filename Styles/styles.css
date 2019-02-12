@@ -63,6 +63,8 @@ body {
 .homepage-nav-item:hover {
   text-decoration: none;
   color: #C5B358;
+  background-color: black;
+  border: 2px solid #C5B358;
 }
 
 .line-start {
@@ -85,6 +87,13 @@ body {
   border-radius: 15px;
   border: 4px solid #C5B258;
   list-style: none;
+  background-color: #F8F9FA;
+}
+
+.description-list li:hover {
+  color: #C5B358;
+  background-color: black;
+  border: 4px solid white;
 }
 
 
@@ -115,10 +124,17 @@ body {
 
 .video-text h1 {
   text-align: center;
-  border: 2px solid black;
+  border: 4px solid #C5B358;
   border-radius: 25px;
-  color: #C5B358;
+  color: black;
   padding: 10px;
+  background-color: #F8F9FA;
+}
+
+.video-text h1:hover {
+  color: #C5B358;
+  background-color: black;
+  border: 4px solid white;
 }
 
 .videobox {
@@ -166,6 +182,19 @@ video {
 .navbar-text {
   font-family: 'Clicker Script';
   font-size: 25px;
+  margin-left: 150px;
+}
+
+.tmc-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #C5B358;
+  border-radius: 15px;
+}
+
+.tmc-btn:hover {
+  background-color: black;
+  color: #C5B358;
 }
 
 /* Carousel Styling */
@@ -232,7 +261,7 @@ video {
 
 footer {
   border-top: 2px dashed white;
-  background-color: grey;
+  background-color: gray;
   color: #C5B358;
   font-size: 12px;
   font-family: 'Nunito';
