@@ -10,3 +10,17 @@
 }
 
 /* Search Parties */
+
+.party-search-container {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding: 20px;
+  border: 4px solid #C5B358;
+  border-radius: 15px;
+  background-color: #F8F9FA;
+  font-family: 'Nunito';
+}
+
+.party-search-bar {
+  border: 2px solid #C5B358;
+}
