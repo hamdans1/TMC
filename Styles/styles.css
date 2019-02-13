@@ -195,6 +195,7 @@ video {
 .tmc-btn:hover {
   background-color: black;
   color: #C5B358;
+  border-color: #C5B358;
 }
 
 /* Carousel Styling */

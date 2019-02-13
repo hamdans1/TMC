@@ -65,7 +65,7 @@
                   <label for="passwordSignIn">Password</label>
                   <input type="password" class="form-control" id="passwordSignIn" placeholder="Password">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary tmc-btn">Submit</button>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item register-link" href="#">Sign Up/Register</a>
             </div>
@@ -82,6 +82,7 @@
     <div class= "container content">
 
       <!-- Search Box -->
+      <!-- Has to be replaced with a form -->
       <div class="party-search-container">
         <h2>Search for Your Party</h2>
         <p>Search for any party by host's name, location of the party, or the date of the party.</p>
@@ -95,13 +96,97 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Host Name</a>
               <a class="dropdown-item" href="#">Location</a>
-              <a class="dropdown-item" href="#">Date of Party</a>
+              <a class="dropdown-item" href="#">Status</a>
             </div>
           </div>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="returnPendingCheck">
+          <label class="form-check-label" for="returnPendingCheck">(A)Return Only Pending or Ready Parties</label>
         </div>
       </div>
 
       <!-- Search Results Table -->
+      <div class="search-results-border">
+        <table class="table table-striped search-results-table">
+          <thead>
+            <tr>
+              <th scope="col">Number</th>
+              <th scope="col">Host</th>
+              <th scope="col">Location</th>
+              <th scope="col">Date</th>
+              <th scope="col"># of Attendees</th>
+              <th scope="col">(A)Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">3487295</th>
+              <td>Betty Draper</td>
+              <td>Rye, NY</td>
+              <td>July 10, 1968</td>
+              <td>17</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <th scope="row">6832742</th>
+              <td>Peggy Olsen</td>
+              <td>Bay Ridge, NY</td>
+              <td>December 12, 1962</td>
+              <td>9</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <th scope="row">7327592</th>
+              <td>Joan Harris</td>
+              <td>New York, NY</td>
+              <td>August 7, 1966</td>
+              <td>12</td>
+              <td>Ready</td>
+            </tr>
+            <tr>
+              <th scope="row">1250864</th>
+              <td>Megan Draper</td>
+              <td>Los Angeles, CA</td>
+              <td>January 29, 1971</td>
+              <td>11</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <th scope="row">3487295</th>
+              <td>Betty Draper</td>
+              <td>Rye, NY</td>
+              <td>July 10, 1968</td>
+              <td>17</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <th scope="row">6832742</th>
+              <td>Peggy Olsen</td>
+              <td>Bay Ridge, NY</td>
+              <td>December 12, 1962</td>
+              <td>9</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <th scope="row">7327592</th>
+              <td>Joan Harris</td>
+              <td>New York, NY</td>
+              <td>August 7, 1966</td>
+              <td>12</td>
+              <td>Ready</td>
+            </tr>
+            <tr>
+              <th scope="row">1250864</th>
+              <td>Megan Draper</td>
+              <td>Los Angeles, CA</td>
+              <td>January 29, 1971</td>
+              <td>11</td>
+              <td>Pending</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
     </div>
 
