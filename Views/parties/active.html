@@ -90,10 +90,25 @@
           <div class="container user-design-box">
             <form>
               <h3>Design Your Board</h3>
+              <p>Take a look at our design tips and hints to the right to help <br>figure out what you'd like your board to look like.</p>
               <div class="form-group">
                 <label for="nameInput">Name</label>
                 <input type="text" class="form-control" id="nameInput" placeholder="Enter Name">
               </div>
+              <h6>Select a Skill Level</h6>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="skillLevelRadioOptions" id="skillLevelRookie" value="rookie">
+                <label class="form-check-label" for="skillLevelRookie">Rookie</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="skillLevelRadioOptions" id="skillLevelSeasoned" value="seasoned">
+                <label class="form-check-label" for="skillLevelSeasoned">Seasoned</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="skillLevelRadioOptions" id="skillLevelExpert" value="expert">
+                <label class="form-check-label" for="skillLevelExpert">Expert</label>
+              </div>
+              <br>
               <div class="form-group">
                 <label for="boardSize">Choose a Size</label>
                 <select class="form-control" id="boardSize">
@@ -123,8 +138,63 @@
             </form>
           </div>
           <!-- Chat Box -->
-          <div class="container chat-box">
-            <div class="container reply-box">
+          <div class="container chat-container">
+            <h3 class="chat-header">Party Chat</h3>
+            <div class="container-fluid party-chat-box">
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">I just started designing my board, I definitely want a frame.</p>
+                </div>
+                <p class="chat-box-id">EmailAddress@User.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">I've been working on mine for a little while now. The people who come on to help are so great, they made it so easy. Who else is doing a porch board?</p>
+                </div>
+                <p class="chat-box-id">EmailAddress@User.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">I decided to stick with a tray and keep it simple. I know they say you don't have to be an expert but I want to be safe.</p>
+                </div>
+                <p class="chat-box-id">EmailAddress@User.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-user">
+                  <p class="chat-box-text">Does anyone know if there's a word limit?</p>
+                </div>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-admin">
+                  <p class="chat-box-text">Hello, welcome to TMC Chat ladies. I'm here to help you with any questions you might have about the process.</p>
+                </div>
+                <p class="chat-box-id">Admin Name</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-user">
+                  <p class="chat-box-text">How long do parties usually go for? I just want to be sure to keep my babysitter around for long enough.</p>
+                </div>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">Is everyone else paying with Venmo or on the website?</p>
+                </div>
+                <p class="chat-box-id">EmailAddress@User.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">Good news ladies, I already bought the Prosecco and have the bar set up for Friday night. The guys will be away so we have the place to ourselves!</p>
+                </div>
+                <p class="chat-box-id">EmailAddress@User.com</p>
+              </div>
+            </div>
+            <div class="container-fluid reply-box">
+              <form class="form-group">
+                <label for="chatReplyBox"></label>
+                <textarea class="form-control" id="chatReplyBox" rows="2" placeholder="Type Your Response Here" width="500"></textarea>
+                <br>
+                <button type="submit" class="btn tmc-btn">Send</button>
+              </form>
             </div>
           </div>
         </div>
