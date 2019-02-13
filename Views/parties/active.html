@@ -38,7 +38,7 @@
               <a class="dropdown-item" href="./host.html">Host a Party</a>
               <a class="dropdown-item" href="./active.html">View Your Party</a>
               <a class="dropdown-item" href="./search.html">Search for a Party</a>
-              <a class="dropdown-item" href="./AdminList.html">(Admin)See Parties</a>
+              <a class="dropdown-item" href="./AdminParty.html">(Admin)See Parties</a>
             </div>
           </li>
           <li class="nav-item dropdown nav-dropdown">
@@ -67,6 +67,8 @@
                 </div>
                 <button type="submit" class="btn btn-primary tmc-btn">Submit</button>
                 <div class="dropdown-divider"></div>
+                <a class="dropdown-item register-link" href="#">My Account</a>
+                <div class="dropdown-divider"></div>
                 <a class="dropdown-item register-link" href="#">Sign Up/Register</a>
             </div>
           </li>
@@ -80,7 +82,61 @@
     </nav>
 
     <!-- main container -->
-    
+
+    <!-- board design box -->
+    <div class="container-fluid active-party-content">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="container user-design-box">
+            <form>
+              <h3>Design Your Board</h3>
+              <div class="form-group">
+                <label for="nameInput">Name</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Enter Name">
+              </div>
+              <div class="form-group">
+                <label for="boardSize">Choose a Size</label>
+                <select class="form-control" id="boardSize">
+                  <option>12x12</option>
+                  <option>6x24</option>
+                  <option>9x18</option>
+                  <option>6x36</option>
+                  <option>8x24</option>
+                  <option>9x30</option>
+                  <option>12x24</option>
+                </select>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="addFrameToBoard">
+                <label class="form-check-label" for="addFrameToBoard">Add a Frame to Your Board</label>
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="boardText">Board Text</label>
+                <input type="text" class="form-control" id="boardText" placeholder="What Do You Want On Your Board">
+              </div>
+              <div class="form-group">
+                <label for="additionalBoardInstructions">Additional Board Instructions</label>
+                <textarea class="form-control" id="additionalBoardInstructions" rows="3">Info for our designers</textarea>
+              </div>
+              <button type="submit" class="btn tmc-btn">Save</button>
+            </form>
+          </div>
+          <!-- Chat Box -->
+          <div class="container chat-box">
+            <div class="container reply-box">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-5">
+          <div class="container design-info">
+          </div>
+        </div>
+
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="page-footer">
