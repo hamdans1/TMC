@@ -107,3 +107,7 @@
 .reply-box {
   position: absolute;
 }
+
+.chat-reply-area {
+  width: 700px;
+}
