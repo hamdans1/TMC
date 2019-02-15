@@ -1,0 +1,16 @@
+.user-content {
+  border: 4px solid #C5B358;
+  background-color: #F8F9FA;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: 'Quicksand';
+}
+
+.user-profile {
+  margin-top: 125px;
+}
+
+.user-history {
+  margin-bottom: 500px;
+}
