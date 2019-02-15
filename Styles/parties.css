@@ -108,6 +108,82 @@
   position: absolute;
 }
 
-.chat-reply-area {
+.active-party-info {
+  border: 4px solid #C5B358;
+  background-color: #F8F9FA;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
 
+.design-info {
+  border: 4px solid #C5B358;
+  background-color: #F8F9FA;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.board {
+  background-color: black;
+  margin-right: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.board-one {
+  height: 60px;
+  width: 60px;
+}
+
+.board-two {
+  height: 30px;
+  width: 120px;
+}
+
+.board-three {
+  height: 45px;
+  width: 90px;
+}
+
+.board-four {
+  height: 30px;
+  width: 180px;
+}
+
+.board-five {
+  height: 40px;
+  width: 120px;
+}
+
+.board-six {
+  height: 45px;
+  width: 150px;
+}
+
+.board-seven {
+  height: 60px;
+  width: 120px;
+}
+
+.tray-board {
+  height: 60px;
+  width: 80px;
+}
+
+.porch-board-one {
+  height: 40px;
+  width: 240px;
+}
+
+.porch-board-two {
+  height: 60px;
+  width: 240px;
+}
+
+.growth-chart-board {
+  height: 60px;
+  width: 320px;
 }
