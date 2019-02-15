@@ -7,7 +7,7 @@
   border-radius: 15px;
   padding: 20px 20px 20px 20px;
   background-color: #F8F9FA;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 /* Search Parties */
@@ -19,7 +19,7 @@
   border: 4px solid #C5B358;
   border-radius: 15px;
   background-color: #F8F9FA;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .party-search-bar {
@@ -36,7 +36,7 @@
 .active-party-content {
   margin-top: 100px;
   margin-bottom: 25px;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .user-design-box {
@@ -50,10 +50,10 @@
   margin-top: 25px;
   border: 4px solid #C5B358;
   border-radius: 15px;
-  height: 850px;
+  height: 860px;
   position: relative;
   background-color: #F8F9FA;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .chat-header {
@@ -68,7 +68,7 @@
 }
 
 .chat-box-text {
-  font-size: 1.1rem;
+
 }
 
 .chat-box-id {
@@ -109,5 +109,5 @@
 }
 
 .chat-reply-area {
-  width: 700px;
+
 }

@@ -57,7 +57,7 @@ body {
   text-align: center;
   padding-top: 4%;
   border: 2px solid #C5B358;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .homepage-nav-item:hover {
@@ -77,7 +77,7 @@ body {
 .description-list {
   color: black;
   font-size: 36px;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .description-list li {
@@ -119,7 +119,7 @@ body {
   padding-right: 100px;
   font-size: 30px;
   color: black;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .video-text h1 {
@@ -156,11 +156,12 @@ video {
 .nav-item {
   margin-left: 10px;
   margin-right: 10px;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .dropdown-item {
   border-radius: 15px;
+  font-weight: 300;
 }
 
 .dropdown-item:hover {
@@ -244,7 +245,7 @@ video {
 }
 
 .news-headline p {
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .insta-header {
@@ -267,8 +268,9 @@ footer {
   background-color: gray;
   color: #C5B358;
   font-size: 12px;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
   bottom: 0;
+  font-weight: 300;
 }
 
 .foot-links-box {
@@ -279,7 +281,7 @@ footer {
 .foot-links {
   color: #C5B358;
   font-size: 12px;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
 
 .foot-links li {
@@ -293,5 +295,5 @@ footer {
 
 .email-capture {
   margin-top: 35px;
-  font-family: 'Nunito';
+  font-family: 'Quicksand';
 }
