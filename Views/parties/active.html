@@ -81,6 +81,74 @@
 
     <!-- board design box -->
     <div class="container-fluid active-party-content">
+      <div class="container-fluid active-party-admin">
+        <h1>Admin</h1>
+        <form>
+          <div>
+            <h6>Set Status: </h6>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusPending" value="pending">
+              <label class="form-check-label" for="partyStatusPending">Pending</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusReady" value="ready">
+              <label class="form-check-label" for="partyStatusReady">Ready</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusCompleted" value="completed">
+              <label class="form-check-label" for="partyStatusCompleted">Completed</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusCancelled" value="cancelled">
+              <label class="form-check-label" for="partyStatusCancelled">Cancelled</label>
+            </div>
+          <button type="button" class="btn btn-sm btn-primary">Update</button>
+          </div>
+        </form>
+        <br>
+        <form>
+          <div>
+            <h6>Send Automated Warning Email: </h6>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="warningEmailRadioOptions" id="emailWarningDate" value="Date Approaching">
+              <label class="form-check-label" for="emailWarningDate">Date Approaching</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="warningEmailRadioOptions" id="emailWarningConsultation" value="Consultation Approaching">
+              <label class="form-check-label" for="emailWarningConsultation">Consultation Approaching</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="warningEmailRadioOptions" id="emailWarningPayment" value="Payment Missing">
+              <label class="form-check-label" for="emailWarningPayment">Payment Missing</label>
+            </div>
+          <button type="button" class="btn btn-sm btn-danger">Send</button>
+          </div>
+        </form>
+        <br>
+        <form>
+          <div>
+            <h6>Set date for design consultation: </h6>
+            <input class="form-control form-control-sm col-md-6" type="text" placeholder="Enter Date Here">
+            <br>
+            <button type="button" class="btn btn-sm btn-primary">Set Date</button>
+          </div>
+        </form>
+        <br>
+        <form>
+            <div class="form-group">
+              <label for="pinEmailMessage">Email/Pin Message to Party</label>
+              <textarea class="form-control col-md-6" id="pinEmailMessage" rows="3"></textarea>
+              <button type="button" class="btn btn-sm btn-primary">Pin/Send</button>
+            </div>
+        </form>
+
+      </div>
+
+
+      <div class="container-fluid alert alert-danger" role="alert">
+        <h1>Message from TMC</h1>
+        <p>Final designs must be set and saved by this Friday night. If you have any questions post them here or reach out to your design consultant!</p>
+      </div>
       <div class="row">
         <div class="col-md-7">
           <div class="container user-design-box">
@@ -92,17 +160,17 @@
                 <input type="text" class="form-control" id="nameInput" placeholder="Enter Name">
               </div>
               <h6>Select a Skill Level</h6>
-              <div class="form-check form-check-inline">
+              <div class="form-check form-check">
                 <input class="form-check-input" type="radio" name="skillLevelRadioOptions" id="skillLevelRookie" value="rookie">
-                <label class="form-check-label" for="skillLevelRookie">Rookie</label>
+                <label class="form-check-label" for="skillLevelRookie">Rookie (One word, large block fonts)</label>
               </div>
-              <div class="form-check form-check-inline">
+              <div class="form-check form-check">
                 <input class="form-check-input" type="radio" name="skillLevelRadioOptions" id="skillLevelSeasoned" value="seasoned">
-                <label class="form-check-label" for="skillLevelSeasoned">Seasoned</label>
+                <label class="form-check-label" for="skillLevelSeasoned">Seasoned (Few words, thinner and script fonts)</label>
               </div>
-              <div class="form-check form-check-inline">
+              <div class="form-check form-check">
                 <input class="form-check-input" type="radio" name="skillLevelRadioOptions" id="skillLevelExpert" value="expert">
-                <label class="form-check-label" for="skillLevelExpert">Expert</label>
+                <label class="form-check-label" for="skillLevelExpert">Expert (Longer quotes, thin and variable fonts)</label>
               </div>
               <br>
               <br>
@@ -299,7 +367,7 @@
               </div>
             </div>
             <br>
-            <h6>Tray</h6>
+            <h5>Tray</h5>
             <div class="row">
               <div class="board tray-board">
                 12x16x2
@@ -310,7 +378,7 @@
               </div>
             </div>
             <br>
-            <h6>Porch Boards</h6>
+            <h5>Porch Boards</h5>
             <div class="row">
               <div class="board porch-board-one">
                 8x48
@@ -330,7 +398,7 @@
               </div>
             </div>
             <br>
-            <h6>Growth Chart</h6>
+            <h5>Growth Chart</h5>
             <div class="row">
               <div class="board growth-chart-board">
                 12x72
