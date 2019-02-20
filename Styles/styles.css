@@ -264,8 +264,8 @@ video {
 /* Footer Styling */
 
 footer {
-  border-top: 2px dashed white;
-  background-color: gray;
+  border-top: 4px solid #C5B358;
+  background-color: black;
   color: #C5B358;
   font-size: 12px;
   font-family: 'Quicksand';
@@ -296,4 +296,8 @@ footer {
 .email-capture {
   margin-top: 35px;
   font-family: 'Quicksand';
+}
+
+.btn-footer {
+  background-color: #C5B358;
 }

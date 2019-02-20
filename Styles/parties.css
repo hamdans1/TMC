@@ -66,6 +66,7 @@
 .chat-header {
   padding-top: 15px;
   padding-bottom: 5px;
+  margin-bottom: 25px;
   border-bottom: 2px solid black;
 }
 
@@ -85,7 +86,7 @@
 }
 
 .chat-box-group {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 5px;
   margin-right: 50px;
   border-radius: 15px;
@@ -93,22 +94,22 @@
 }
 
 .chat-box-user {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 5px;
   border-radius: 15px;
-  margin-left: 50px;
+  margin-left: 75px;
   background-color: blue;
   color: white;
   margin-bottom: 20px;
 }
 
 .chat-box-admin {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 5px;
   border-radius: 15px;
   background-color: #C5B358;
   color: black;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-right: 50px;
 }
 
