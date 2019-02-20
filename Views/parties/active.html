@@ -82,7 +82,7 @@
     <div class="container-fluid active-party-content">
 
       <!-- Admin Box-->
-      
+
       <div class="container-fluid active-party-admin">
         <h1>Admin</h1>
         <form>
@@ -203,6 +203,24 @@
                 <label for="boardText">Board Text</label>
                 <input type="text" class="form-control" id="boardText" placeholder="What Do You Want On Your Board">
               </div>
+              <h6>Select a Font</h6>
+              <div class="form-check form-check">
+                <input class="form-check-input" type="radio" name="fontOptions" id="fontOptionBlock" value="rookie">
+                <label class="form-check-label" for="fontOptionBlock">Block</label>
+              </div>
+              <div class="form-check form-check">
+                <input class="form-check-input" type="radio" name="fontOptions" id="fontOptionScript" value="seasoned">
+                <label class="form-check-label" for="fontOptionScript">Script</label>
+              </div>
+              <div class="form-check form-check">
+                <input class="form-check-input" type="radio" name="fontOptions" id="fontOptionTraditional" value="rookie">
+                <label class="form-check-label" for="fontOptionTraditional">Traditional</label>
+              </div>
+              <div class="form-check form-check">
+                <input class="form-check-input" type="radio" name="fontOptions" id="fontOptionModern" value="seasoned">
+                <label class="form-check-label" for="fontOptionModern">Modern</label>
+              </div>
+              <br>
               <div class="form-group">
                 <label for="additionalBoardInstructions">Additional Board Instructions</label>
                 <textarea class="form-control" id="additionalBoardInstructions" rows="3">Info for our designers</textarea>
@@ -275,24 +293,18 @@
 
         <div class="col-md-5">
           <div class="container active-party-info">
-            <h3>Party Info</h3>
+            <h3><a class="active-party-link" href="#">Party Info/Link<a></h3>
             <br>
             <div class="container">
               <h5>Host: Bethenny Frankel</h5>
-              <h5>TMC Host: Kathleen McGinley &<br> Casey Stewart</h5>
+              <br>
               <p>Date: June 10, 2019</p>
               <p>Time: 8:00pm</p>
               <p>Location: 374 5th Avenue</p>
               <p>Apartment P</p>
               <p>New York, NY 10028</p>
             </div>
-            <div class="container">
-              <h5>TMC Design Consultant: Megan Maxwell</h5>
-              <p>Consultation Date: May 10, 2019</p>
-              <p>Consultation Time: 8:00pm</p>
-              <p>DESIGN DEADLINE: May 20, 2019</p>
           </div>
-        </div>
 
         <div class="container design-info">
           <h3>Design Guide</h3>
@@ -391,8 +403,6 @@
               <div class="board-price">
                 <p>$85</p>
               </div>
-            </div>
-            <div class="row">
               <div class="board porch-board-two">
                 12x48
               </div>
