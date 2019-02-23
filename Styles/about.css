@@ -10,3 +10,27 @@
 .contact-feedback {
   margin-top: 125px;
 }
+
+/* faq */
+
+.faq-content-container {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-family: 'Quicksand';
+}
+
+.list-group {
+  margin-left: 30px;
+  position: fixed;
+}
+
+.faq-answers-container {
+  left: 200px;
+}
+
+.faq-item {
+  margin-bottom: 25px;
+  border: 2px solid #C5B358;
+  padding: 20px;
+  border-radius: 15px;
+}
