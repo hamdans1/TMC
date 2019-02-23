@@ -24,13 +24,25 @@
   position: fixed;
 }
 
+.list-group-item {
+  border: 1px solid #C5B358;
+}
+
+.list-group-item.active {
+  background-color: black;
+  color: #C5B358;
+  border: 1px solid #C5B358;
+}
+
 .faq-answers-container {
   left: 200px;
+  position: relative;
 }
 
 .faq-item {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   border: 2px solid #C5B358;
   padding: 20px;
   border-radius: 15px;
+  background-color: #F8F9FA;
 }

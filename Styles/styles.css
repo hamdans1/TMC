@@ -201,10 +201,27 @@ video {
   border-color: #C5B358;
 }
 
+/* Home Page */
+
+.home-logo-row {
+  margin-top: 125px;
+}
+
+.product-lineup-row {
+  border: 2px solid #C5B358;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.product-lineup-item {
+  margin: 10px;
+  background-color: black;
+}
+
 /* Carousel Styling */
 
 .carousel {
-  margin: 100px 35px 35px 35px;
+  margin: 35px 35px 35px 35px;
   border: 3px solid #C5B358;
   border-radius: 15px;
 }
