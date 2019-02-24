@@ -85,63 +85,59 @@
 
     <!-- main container -->
 
-    <div class="container-fluid active-party-content">
+    <div class="container-fluid admin-content">
 
-      <!-- Admin Box-->
-
-      <div class="row">
-      <div class="col-6 active-party-admin">
-        <h1>Admin</h1>
-        <form>
-          <div>
-            <h6>Set Status: </h6>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusPending" value="pending">
-              <label class="form-check-label" for="partyStatusPending">Pending</label>
+      <div class="container row admin-top">
+        <div class="col-6 active-party-admin">
+          <h1>Admin</h1>
+          <form>
+            <div>
+              <h6>Set Status: </h6>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusPending" value="pending">
+                <label class="form-check-label" for="partyStatusPending">Pending</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusReady" value="ready">
+                <label class="form-check-label" for="partyStatusReady">Ready</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusCompleted" value="completed">
+                <label class="form-check-label" for="partyStatusCompleted">Completed</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusCancelled" value="cancelled">
+                <label class="form-check-label" for="partyStatusCancelled">Cancelled</label>
+              </div>
+            <button type="button" class="btn btn-sm btn-primary">Update</button>
             </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusReady" value="ready">
-              <label class="form-check-label" for="partyStatusReady">Ready</label>
+          </form>
+          <br>
+          <form>
+            <div>
+              <h6>Send Automated Warning Email: </h6>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="warningEmailRadioOptions" id="emailWarningDate" value="Date Approaching">
+                <label class="form-check-label" for="emailWarningDate">Date Approaching</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="warningEmailRadioOptions" id="emailWarningPayment" value="Payment Missing">
+                <label class="form-check-label" for="emailWarningPayment">Payment Missing</label>
+              </div>
+            <button type="button" class="btn btn-sm btn-danger">Send</button>
             </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusCompleted" value="completed">
-              <label class="form-check-label" for="partyStatusCompleted">Completed</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="partyStatusRadioOptions" id="partyStatusCancelled" value="cancelled">
-              <label class="form-check-label" for="partyStatusCancelled">Cancelled</label>
-            </div>
-          <button type="button" class="btn btn-sm btn-primary">Update</button>
-          </div>
-        </form>
-        <br>
-        <form>
-          <div>
-            <h6>Send Automated Warning Email: </h6>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="warningEmailRadioOptions" id="emailWarningDate" value="Date Approaching">
-              <label class="form-check-label" for="emailWarningDate">Date Approaching</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="warningEmailRadioOptions" id="emailWarningPayment" value="Payment Missing">
-              <label class="form-check-label" for="emailWarningPayment">Payment Missing</label>
-            </div>
-          <button type="button" class="btn btn-sm btn-danger">Send</button>
-          </div>
-        </form>
-        <br>
-        <form>
-            <div class="form-group">
-              <label for="pinEmailMessage">Email/Pin Message to Party</label>
-              <textarea class="form-control col-md-6" id="pinEmailMessage" rows="3"></textarea>
-              <br>
-              <button type="button" class="btn btn-sm btn-primary">Pin/Send</button>
-            </div>
-        </form>
-      </div>
-
-      <div class="col-md-5">
-        <div class="container active-party-info">
+          </form>
+          <br>
+          <form>
+              <div class="form-group">
+                <label for="pinEmailMessage">Email/Pin Message to Party</label>
+                <textarea class="form-control col-md-6" id="pinEmailMessage" rows="3"></textarea>
+                <br>
+                <button type="button" class="btn btn-sm btn-primary">Pin/Send</button>
+              </div>
+          </form>
+        </div>
+        <div class="col-6 active-party-info">
           <h3><a class="active-party-link" href="#">Party Info/Link<a></h3>
           <br>
           <div class="container">
@@ -156,72 +152,11 @@
         </div>
       </div>
 
-
-    </div>
-
-          <!-- Chat Box -->
-          <div class="container chat-container">
-            <h3 class="chat-header">Party Chat</h3>
-            <div class="container-fluid party-chat-box">
-              <div class="chat-box">
-                <div class="chat-box-group">
-                  <p class="chat-box-text">I just started designing my board, I definitely want a frame.</p>
-                </div>
-                <p class="chat-box-id">CountessLuann@Email.com</p>
-              </div>
-              <div class="chat-box">
-                <div class="chat-box-group">
-                  <p class="chat-box-text">I've been working on mine for a little while now. The people who come on to help are so great, they made it so easy. Who else is doing a porch board?</p>
-                </div>
-                <p class="chat-box-id">RamonaCoaster@Email.com</p>
-              </div>
-              <div class="chat-box">
-                <div class="chat-box-group">
-                  <p class="chat-box-text">I decided to stick with a tray and keep it simple. I know they say you don't have to be an expert but I want to be safe.</p>
-                </div>
-                <p class="chat-box-id">SkinnyGirl@Email.com</p>
-              </div>
-              <div class="chat-box">
-                <div class="chat-box-user">
-                  <p class="chat-box-text">Does anyone know if there's a word limit?</p>
-                </div>
-              </div>
-              <div class="chat-box">
-                <div class="chat-box-admin">
-                  <p class="chat-box-text">Hello, welcome to TMC Chat ladies. I'm here to help you with any questions you might have about the process.</p>
-                </div>
-                <p class="chat-box-id">Megan Maxwell</p>
-              </div>
-              <div class="chat-box">
-                <div class="chat-box-user">
-                  <p class="chat-box-text">How long do parties usually go for? I just want to be sure to keep my babysitter around for long enough.</p>
-                </div>
-              </div>
-              <div class="chat-box">
-                <div class="chat-box-group">
-                  <p class="chat-box-text">Is everyone else paying with Venmo or on the website?</p>
-                </div>
-                <p class="chat-box-id">CountessLuann@Email.com</p>
-              </div>
-              <div class="chat-box">
-                <div class="chat-box-group">
-                  <p class="chat-box-text">Good news ladies, I already bought the Prosecco and have the bar set up for Friday night. The guys will be away so we have the place to ourselves!</p>
-                </div>
-                <p class="chat-box-id">SkinnyGirl@Email.com</p>
-              </div>
-            </div>
-            <div class="container-fluid reply-box">
-              <form class="form-group">
-                <label for="chatReplyBox"></label>
-                <textarea class="form-control chat-reply-area col-11" id="chatReplyBox" rows="2" placeholder="Type Your Response Here" width="500"></textarea>
-                <br>
-                <button type="submit" class="btn tmc-btn">Send</button>
-              </form>
-            </div>
+      <div class="container row admin-bottom">
+        <div class="col-4 admin-roster">
+          <div class="container admin-roster-info">
           </div>
-        </div>
-
-          <div class="col-6 admin-party-checklist">
+          <div class="container admin-roster-checklist">
             <div class="row roster-form-entry">
               <h5>Ramona Singer</h5>
               <div class="form-check form-check-inline">
@@ -298,66 +233,125 @@
               </div>
             </div>
           </div>
-
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-    <!-- Footer -->
-    <footer class="page-footer">
-      <div class="container-fluid text-center text-md-left">
-
-        <div class="row row-footer">
-
-          <div class="col-md-4">
-            <a class="navbar-brand logo" href="#">
-              <img src="../../images/TMCminGold-01.png" width="100" height="50" alt="TMC Logo">
-            </a>
-            <p class="ppp-footer">Personalize. Paint. Prosecco. </p>
-            <p>The Monogram Crew has been designing boards and hosting parties since 2016. It is a labor of love and a true family business.</p>
           </div>
-
-          <div class="col-md-4 foot-links-box">
-            <h6>Navigate</h6>
-            <div>
-            <ul class="foot-links">
-              <li><a class="foot-link" href="../main.html">Home</a></li>
-              <li><a class="foot-link" href="./host.html">Host a Party</a></li>
-              <li><a class="foot-link" href="./search.html">Search</a></li>
-              <li><a class="foot-link" href="../About/contact.html">Contact Us</a></li>
-              <li><a class="foot-link" href="#">Register</a></li>
-            </ul>
+          <div class="container admin-image-upload">
+          </div>
+        </div>
+        <div class="col-8 party-chat">
+          <div class="container chat-container">
+            <h3 class="chat-header">Party Chat</h3>
+            <div class="container-fluid party-chat-box">
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">I just started designing my board, I definitely want a frame.</p>
+                </div>
+                <p class="chat-box-id">CountessLuann@Email.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">I've been working on mine for a little while now. The people who come on to help are so great, they made it so easy. Who else is doing a porch board?</p>
+                </div>
+                <p class="chat-box-id">RamonaCoaster@Email.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">I decided to stick with a tray and keep it simple. I know they say you don't have to be an expert but I want to be safe.</p>
+                </div>
+                <p class="chat-box-id">SkinnyGirl@Email.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-user">
+                  <p class="chat-box-text">Does anyone know if there's a word limit?</p>
+                </div>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-admin">
+                  <p class="chat-box-text">Hello, welcome to TMC Chat ladies. I'm here to help you with any questions you might have about the process.</p>
+                </div>
+                <p class="chat-box-id">Megan Maxwell</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-user">
+                  <p class="chat-box-text">How long do parties usually go for? I just want to be sure to keep my babysitter around for long enough.</p>
+                </div>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">Is everyone else paying with Venmo or on the website?</p>
+                </div>
+                <p class="chat-box-id">CountessLuann@Email.com</p>
+              </div>
+              <div class="chat-box">
+                <div class="chat-box-group">
+                  <p class="chat-box-text">Good news ladies, I already bought the Prosecco and have the bar set up for Friday night. The guys will be away so we have the place to ourselves!</p>
+                </div>
+                <p class="chat-box-id">SkinnyGirl@Email.com</p>
+              </div>
+            </div>
+            <div class="container-fluid reply-box">
+              <form class="form-group">
+                <label for="chatReplyBox"></label>
+                <textarea class="form-control chat-reply-area col-11" id="chatReplyBox" rows="2" placeholder="Type Your Response Here" width="500"></textarea>
+                <br>
+                <button type="submit" class="btn tmc-btn">Send</button>
+              </form>
             </div>
           </div>
-
-          <div class="col-md-4 email-capture">
-            <h6>Sign Up for the Latest Information About New Products and Great Deals</h6>
-            <form class="input-group">
-              <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-sm btn-footer" type="button">Sign up</button>
-              </div>
-            </form>
-          </div>
-
         </div>
+
       </div>
-    </footer>
+      <!-- Footer -->
+      <footer class="page-footer">
+        <div class="container-fluid text-center text-md-left">
 
-    <!-- Required Scripts -->
-    <!-- JQuery -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <!-- Main.js -->
-    <script type="text/javascript" src="../../scripts/main.js"></script>
-    <!-- Popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <div class="row row-footer">
 
-  </body>
+            <div class="col-md-4">
+              <a class="navbar-brand logo" href="#">
+                <img src="../../images/TMCminGold-01.png" width="100" height="50" alt="TMC Logo">
+              </a>
+              <p class="ppp-footer">Personalize. Paint. Prosecco. </p>
+              <p>The Monogram Crew has been designing boards and hosting parties since 2016. It is a labor of love and a true family business.</p>
+            </div>
+
+            <div class="col-md-4 foot-links-box">
+              <h6>Navigate</h6>
+              <div>
+              <ul class="foot-links">
+                <li><a class="foot-link" href="../main.html">Home</a></li>
+                <li><a class="foot-link" href="./host.html">Host a Party</a></li>
+                <li><a class="foot-link" href="./search.html">Search</a></li>
+                <li><a class="foot-link" href="../About/contact.html">Contact Us</a></li>
+                <li><a class="foot-link" href="#">Register</a></li>
+              </ul>
+              </div>
+            </div>
+
+            <div class="col-md-4 email-capture">
+              <h6>Sign Up for the Latest Information About New Products and Great Deals</h6>
+              <form class="input-group">
+                <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-sm btn-footer" type="button">Sign up</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+      <!-- Required Scripts -->
+      <!-- JQuery -->
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <!-- Main.js -->
+      <script type="text/javascript" src="../../scripts/main.js"></script>
+      <!-- Popper -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <!-- Bootstrap JS -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    </body>
