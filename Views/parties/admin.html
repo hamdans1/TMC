@@ -85,9 +85,41 @@
 
     <!-- main container -->
 
-    <div class="container-fluid active-party-content">
+    <div class="container-fluid active-admin-content">
 
-      <!-- Admin Box-->
+      <!-- party roster -->
+      <div class="container col-6 party-roster-table">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Board Subitted</th>
+              <th scope="col">Design Agreed</th>
+              <th scope="col">Paid</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Dorinda Medley</th>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <th scope="row">Bethenny Frankel</th>
+              <td>Yes</td>
+              <td>No</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <th scope="row">Tinsley Mortimer</th>
+              <td>Yes</td>
+              <td>No</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <div class="row">
       <div class="col-6 active-party-admin">
@@ -236,6 +268,10 @@
                 <input class="form-check-input" type="checkbox" id="paid" value="paidTrue">
                 <label class="form-check-label" for="paid">Paid?</label>
               </div>
+              <div class="custom-file image-upload-browse">
+                <input type="file" class="custom-file-input" id="imageUpload">
+                <label class="custom-file-label" for="imageUpload">Choose file</label>
+              </div>
             </div>
             <div class="row roster-form-entry">
               <h5>Bethenny Frankel</h5>
@@ -250,6 +286,10 @@
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="paid" value="paidTrue">
                 <label class="form-check-label" for="paid">Paid?</label>
+              </div>
+              <div class="custom-file image-upload-browse">
+                <input type="file" class="custom-file-input" id="imageUpload">
+                <label class="custom-file-label" for="imageUpload">Choose file</label>
               </div>
             </div>
             <div class="row roster-form-entry">
@@ -266,6 +306,10 @@
                 <input class="form-check-input" type="checkbox" id="paid" value="paidTrue">
                 <label class="form-check-label" for="paid">Paid?</label>
               </div>
+              <div class="custom-file image-upload-browse">
+                <input type="file" class="custom-file-input" id="imageUpload">
+                <label class="custom-file-label" for="imageUpload">Choose file</label>
+              </div>
             </div>
             <div class="row roster-form-entry">
               <h5>Tinsley Mortimer</h5>
@@ -280,6 +324,10 @@
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="paid" value="paidTrue">
                 <label class="form-check-label" for="paid">Paid?</label>
+              </div>
+              <div class="custom-file image-upload-browse">
+                <input type="file" class="custom-file-input" id="imageUpload">
+                <label class="custom-file-label" for="imageUpload">Choose file</label>
               </div>
             </div>
             <div class="row roster-form-entry">
@@ -296,7 +344,14 @@
                 <input class="form-check-input" type="checkbox" id="paid" value="paidTrue">
                 <label class="form-check-label" for="paid">Paid?</label>
               </div>
+              <div class="custom-file image-upload-browse">
+                <input type="file" class="custom-file-input" id="imageUpload">
+                <label class="custom-file-label" for="imageUpload">Choose file</label>
+              </div>
             </div>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary tmc-btn">Submit</button>
           </div>
 
 
