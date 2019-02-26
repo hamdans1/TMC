@@ -205,25 +205,52 @@ video {
 
 /* Home Page */
 
+.home-content {
+  font-family: 'Quicksand';
+}
+
 .home-logo-row {
   margin-top: 125px;
+}
+
+.home-logo {
+  margin-right: 35px;
 }
 
 .product-lineup-row {
   border: 4px solid #C5B358;
   border-radius: 15px;
   margin-bottom: 25px;
+  margin-top: 25px;
+  background-color: #F8F9FA
 }
 
 .product-lineup-item {
-  margin: 10px;
+  margin: 20px;
   background-color: black;
+}
+
+.social-container {
+  margin-bottom: 50px;
+}
+
+.instagram {
+  margin-top: 35px;
+  font-family: 'Quicksand';
+  border: 4px solid #C5B358;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.insta-header {
+  color: black;
+  padding: 10px;
 }
 
 /* Carousel Styling */
 
 .carousel {
-  margin: 35px 35px 35px 35px;
+  margin: 50px;
   border: 3px solid #C5B358;
   border-radius: 15px;
 }
@@ -241,38 +268,16 @@ video {
   font-size: 18px;
 }
 
-/* Instagram and News */
+/* PPP List Content */
 
-.insta-news {
-  display: inline-flex;
-  margin-bottom: 100px;
-}
-
-.news-header {
+.ppp-content {
+  background-color: #F8F9FA;
   font-family: 'Quicksand';
-  border-bottom: 2px solid #C5B358;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
-.news-item {
-  margin-bottom: 50px;
+  border: 4px solid #C5B358;
+  border-radius: 15px;
+  padding: 25px;
 }
 
-.news-headline {
-  font-family: 'Quicksand';
-  border-bottom: 2px solid #C5B358;
-}
-
-.news-headline p {
-  font-family: 'Quicksand';
-}
-
-.insta-header {
-  font-family: 'Quicksand';
-  border-bottom: 2px solid #C5B358;
-  color: black;
-  margin-top: 25px;
-}
 
 /* FAQ */
 
