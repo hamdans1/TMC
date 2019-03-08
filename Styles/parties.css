@@ -214,6 +214,7 @@
 .tray-board {
   height: 60px;
   width: 80px;
+  border: 3px solid #C5B358;
 }
 
 .porch-board-one {
