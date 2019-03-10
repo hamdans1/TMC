@@ -46,3 +46,10 @@
   border-radius: 15px;
   background-color: #F8F9FA;
 }
+
+/* About */
+
+.about-us-content {
+  margin-top: 150px;
+  font-family: 'Quicksand';
+}
