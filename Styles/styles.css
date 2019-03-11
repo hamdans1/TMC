@@ -250,6 +250,11 @@ video {
   border-radius: 12px;
 }
 
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
 .carousel-item {
   height: 500px;
   text-shadow:
