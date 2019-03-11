@@ -50,6 +50,14 @@
 /* About */
 
 .about-us-content {
-  margin-top: 150px;
+  margin-top: 130px;
   font-family: 'Quicksand';
+}
+
+.bio-container {
+  border-radius: 15px;
+  border: 4px solid #C5B358;
+  background-color: #F8F9FA;
+  padding: 15px;
+  margin-bottom: 50px;
 }

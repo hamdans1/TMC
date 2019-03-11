@@ -5,16 +5,7 @@ font-family: 'Nunito', sans-serif;
 color: (goldfoil) #C5B358;
 */
 
-*{
 
-}
-
-/*  un-comment to add twinkle-lights background
-
-body {
-  background-image: url(images/twinkle-lights3.png);
-}
-*/
 
 /* HomePage Styling */
 
@@ -299,8 +290,8 @@ footer {
   color: #C5B358;
   font-size: 12px;
   font-family: 'Quicksand';
-  bottom: 0;
   font-weight: 300;
+  margin-top: 250px;
 }
 
 .foot-links-box {
