@@ -61,3 +61,26 @@
   padding: 15px;
   margin-bottom: 50px;
 }
+
+/* Join Us */
+
+.join-us-container {
+  margin-top: 150px;
+  font-family: 'Quicksand';
+}
+
+.join-checklist {
+  margin-top: 100px;
+  border-radius: 15px;
+  border: 4px solid #C5B358;
+  padding: 15px;
+  background-color: #F8F9FA;
+}
+
+.join-form {
+  border-radius: 15px;
+  border: 4px solid #C5B358;
+  margin-top: 50px;
+  padding: 15px;
+  background-color: #F8F9FA;
+}
