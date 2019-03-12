@@ -221,12 +221,12 @@ video {
   background-color: black;
 }
 
-.social-container {
-  margin-bottom: 50px;
-}
-
 .instagram {
-  margin-top: 35px;
+  margin-left: 35px;
+}
+.social-container {
+  margin-top: 150px;
+  margin-bottom: 50px;
   font-family: 'Quicksand';
   border: 4px solid #C5B358;
   border-radius: 15px;
@@ -237,6 +237,8 @@ video {
   color: black;
   padding: 10px;
 }
+
+
 
 /* Carousel Styling */
 
