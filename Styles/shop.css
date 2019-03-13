@@ -1,0 +1,10 @@
+.shop-content{
+  margin-top: 150px;
+  font-family: 'Quicksand';
+}
+
+.shopping-cart {
+  border-radius: 15px;
+  border: 4px solid #C5B358;
+  padding: 20px;
+}
