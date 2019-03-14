@@ -8,6 +8,9 @@ $(document).ready(function(){
   //  $(this).slideUp('slow');
   //});
 
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  });
 
 
 
