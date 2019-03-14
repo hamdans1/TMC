@@ -152,6 +152,13 @@ video {
   font-family: 'Quicksand';
 }
 
+.nav-item-social {
+  font-size: 2rem;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
 .dropdown-item {
   border-radius: 15px;
   font-weight: 300;
@@ -338,6 +345,17 @@ footer {
 
 .foot-link{
   color: #C5B358;
+}
+
+.footer-social-links {
+  margin-top: 50px;
+  font-size: 3rem;
+}
+
+.footer-social-links a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 .email-capture {

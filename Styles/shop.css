@@ -7,4 +7,37 @@
   border-radius: 15px;
   border: 4px solid #C5B358;
   padding: 20px;
+  background-color: #F8F9FA;
+}
+
+.diy-option-container {
+  border: 4px solid #C5B358;
+  border-radius: 15px;
+  margin-top: 50px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+    ),
+    url("../Images/DIY pic.jpeg");
+  height: 400px;
+  width: 400px;
+}
+
+.diy-option-container:hover,
+.custom-option-container:hover {
+  opacity: .4;
+  cursor: pointer;
+}
+
+.custom-option-container {
+  border: 4px solid #C5B358;
+  border-radius: 15px;
+  margin-top: 50px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3)
+    ),
+    url("../Images/custom shop pic.jpeg");
+  height: 400px;
+  width: 400px;
 }
