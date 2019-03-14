@@ -9,7 +9,13 @@ $(document).ready(function(){
   //});
 
   $(function () {
-    $('[data-toggle="popover"]').popover()
+    $('[data-toggle="popover"]').popover({
+      container: 'body',
+      html: true,
+      content: function() {
+        return '<img src="' + $(this).data('img') + '" class="img-thumbnail"/>';
+      }
+    })
   });
 
 
