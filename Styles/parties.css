@@ -67,6 +67,8 @@
 .party-roster-table {
   border: 4px solid #C5B358;
   border-radius: 15px;
+  padding: 10px;
+  background-color: #F8F9FA;
 }
 
 /* Active Party */
