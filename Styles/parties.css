@@ -1,7 +1,11 @@
 /* Host Parties */
 
+.host-img-container {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
 .host-request-form {
-  margin-top: 150px;
   margin-bottom: 50px;
   border: 4px solid #C5B358;
   border-radius: 15px;
