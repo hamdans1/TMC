@@ -157,6 +157,10 @@
   text-align: center;
 }
 
+.fa-copy {
+  cursor: pointer;
+}
+
 .active-party-link{
   color: black;
 }
